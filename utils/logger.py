@@ -2,7 +2,7 @@ import logging
 from datetime import datetime
 from os import makedirs, path
 
-from modules.settings import settings
+from utils.settings import settings
 
 
 class ColoredFormatter(logging.Formatter):

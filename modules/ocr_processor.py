@@ -2,11 +2,10 @@ import logging
 from typing import Tuple
 
 import pytesseract
-from PIL import Image
 from pymupdf import Page
 from pdf2image import convert_from_path
 
-from modules.settings import settings
+from utils.settings import settings
 
 
 class OCRProcessor:
